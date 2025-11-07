@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".EditContactActivity">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="380dp"
+        android:layout_height="248dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:contentDescription="Profile Image"
+        android:onClick="onProfileImageClick" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgProfile"
+        android:layout_marginTop="16dp"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:inputType="phone"
+        android:hint="Phone"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/editTextPhone"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_save"
+        android:drawablePadding="8dp"
+        android:text="Update"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

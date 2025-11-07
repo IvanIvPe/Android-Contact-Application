@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Contact Application</string>
+    <string name="add_contact_activity_label">Add Contact</string>
+    <string name="delete_contact_button">Delete Contact</string>
+    <string name="menu_delete_contact">Delete Contact</string>
+    <string name="edit_contact_button">Edit Contact</string>
+</resources>
